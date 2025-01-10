@@ -109,6 +109,19 @@
   }
 
 
+  /* shared tags */
+
+ .ultimate-titles {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    }
+ .ultimate-subtitles {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    }
+
+
   /* body style */
   body {
     background-color: #F1F1F3;
@@ -146,7 +159,7 @@
   /* banner section styles */
   .banner {
     height: 560px;
-    margin: 0 160px;
+    margin: 0 160px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -177,3 +190,61 @@
     background-size: cover;
     padding-right: 60px;
   }
+
+
+  /* the vision of future part styles */
+
+.vision-future {
+    margin: 0 160px 20px;
+}
+.vision-title {
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.vision-subtitle {
+    font-size: 18px;
+    color: #0E0E0E;
+    opacity: 70%;
+    line-height: 24px;
+}
+.box-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+.digital-transformation {
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+.btn-primary {
+    background-color: #5490F5;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border: none;
+}
+.green-energy {
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px;
+}
+.modern-infrastructure {
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px;
+}
+.btn-secondery {
+    background-color: #09A15C;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border: none;
+}
+.btn-third {
+    background-color: #FFC239;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border: none;
+}
