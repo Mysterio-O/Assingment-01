@@ -424,3 +424,109 @@
   border-left: 2px solid #006A50;
   border-collapse: collapse;
 }
+
+/* footer section styles start from here */
+
+.last-section-footer {
+  margin: 0;
+  height: 226px;
+  background-color: #FFFFFF;
+  padding: 50px 160px;
+  text-align: center;
+}
+.last-title {
+  font-size: 32px;
+  color: #0E0E0E;
+}
+.footer-img {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+}
+
+/* and lastly im adding some hover effects all over the page */
+
+
+/* nav hover offects are here */
+.nav-title:hover {
+  cursor: pointer;
+}
+.nav-button:hover {
+  background-color: lightgreen;
+  outline: 1px solid lightgreen;
+  cursor: pointer;
+}
+
+/* banner hover offects */
+.banner-btn:hover {
+  cursor:grab;
+}
+
+/* future vision hover offects */
+
+.hover-special-btn:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+.digital-titles:hover {
+  cursor: pointer;
+}
+.digital-photos:hover {
+  cursor: pointer;
+}
+/* donation section hover effcts */
+
+.btn-100:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+.btn-200:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}
+.btn-500:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+.btn-1000:hover {
+  background-color: lightcoral;
+  cursor: pointer;
+}
+.amount-box:hover {
+  outline: 2px solid lightgray;
+  border-radius: 5px;
+  cursor: text;
+}
+.donation-button:hover {
+  cursor: pointer;
+  background-color: #09A15C;
+}
+
+/* subscribe newsletter section hover effects */
+
+.last-input:hover {
+  outline: 1px solid #09A15C;
+}
+.last-input-button:hover {
+  cursor: pointer;
+  background-color: #09A15C;
+}
+ /* news section hover effects */
+
+ .news-heading:hover {
+  cursor: pointer;
+ }
+ .news-photo:hover {
+  cursor: pointer;
+ }
+.news-img:hover {
+  border: 5px solid black;
+  cursor: pointer;
+}
+
+/* footer hover effects */
+
+.footer-icon:hover {
+  cursor: pointer;
+}
